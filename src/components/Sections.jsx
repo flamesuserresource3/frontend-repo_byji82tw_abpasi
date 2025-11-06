@@ -114,7 +114,7 @@ export function SkillsExperienceSection() {
   ];
 
   return (
-    <section id="about" className="relative mx-auto w-full max-w-6xl scroll-mt-24 px-6 py-20 text-white">
+    <section id="skills" className="relative mx-auto w-full max-w-6xl scroll-mt-24 px-6 py-20 text-white">
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-2">
         {/* Skills */}
         <div>
@@ -149,7 +149,7 @@ export function SkillsExperienceSection() {
           <div className="relative mt-6 pl-6">
             <div className="absolute left-2 top-0 h-full w-[2px] bg-gradient-to-b from-[#00FFFF] to-[#00BFFF]" />
             <div className="space-y-6">
-              {experiences.map((e, idx) => (
+              {experiences.map((e) => (
                 <div key={e.role} className="relative">
                   <div className="absolute -left-[11px] top-1 h-4 w-4 rounded-full bg-[#001F3F] ring-2 ring-[#00FFFF]" />
                   <div className="rounded-lg border border-[#00FFFF]/20 bg-[#001F3F]/40 p-4 backdrop-blur">
